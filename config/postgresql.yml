@@ -1,0 +1,24 @@
+Default: &defaults
+  user: chess
+  password: chess
+  host: localhost
+  port: 5432
+  database: chess
+  poolsize: 10
+
+Development:
+  <<: *defaults
+
+Testing:
+  database: chess_test
+  <<: *defaults
+
+Staging:
+  database: chess_staging
+  poolsize: 100
+  <<: *defaults
+
+Production:
+  database: chess_production
+  poolsize: 100
+  <<: *defaults

@@ -1,0 +1,9 @@
+TODO edge case moves (en passant, promotion)
+TODO general code clean up, there's a lot of duplications
+TODO if there's time, see what you can do about the refreshing (done, just refreshes every 10 seconds)
+
+castling done
+capturing (how to represent using Move record?) -- DONE (processMove)!
+king can't move into check (use isThreatened) -- DONE!
+can't move any other piece so you are in checked -- DONE!
+turns (easy, if last move made was not yours, it's your turn) -- DONE!

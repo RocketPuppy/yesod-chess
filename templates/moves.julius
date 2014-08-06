@@ -1,0 +1,5 @@
+$(document).ready(function(){
+    $('.move').click(function(e){
+        $(e.target).children('form').submit();
+    });
+});

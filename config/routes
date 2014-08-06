@@ -1,0 +1,9 @@
+/static StaticR Static getStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ HomeR GET POST
+/game/#GameId GameR GET
+/moves/#GameId/#Row/#Column MovesR GET
+/move/#GameId MakeMoveR POST

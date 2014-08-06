@@ -1,0 +1,14 @@
+User
+    ident Text
+    created UTCTime default=CURRENT_TIMESTAMP
+Game
+    user1_Id UserId
+    user2_Id UserId Maybe
+    created UTCTime default=CURRENT_TIMESTAMP
+Move
+    start_position ChessSquare
+    end_position ChessSquare
+    userId UserId
+    gameId GameId
+    created UTCTime default=CURRENT_TIMESTAMP
+ -- By default this file is used in Model.hs (which is imported by Foundation.hs)

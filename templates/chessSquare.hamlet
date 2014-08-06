@@ -1,0 +1,2 @@
+<div #col_#{toInteger col} .square .#{color}>
+  ^{content row col}

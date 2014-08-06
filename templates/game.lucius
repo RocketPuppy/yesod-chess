@@ -1,0 +1,24 @@
+.square {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.square span {
+  font-size: 4em;
+}
+.square > span {
+  color: gray;
+}
+.white {
+  background: white;
+}
+
+.black {
+  background: black;
+}
+
+.chess-board {
+  border: 1px black solid;
+  display: inline-block;
+}

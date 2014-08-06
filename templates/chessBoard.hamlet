@@ -1,0 +1,3 @@
+<div .chess-board>
+  $forall i <- rowIndices
+    ^{chessRow i content}
