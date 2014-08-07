@@ -84,8 +84,6 @@ library
                  , warp
                  , containers
                  , heroku
-                 , alex == 3.0.5
-                 , happy == 1.18.10
 
 executable         chess
     if flag(library-only)
