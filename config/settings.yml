@@ -16,4 +16,5 @@ Staging:
 
 Production:
   #approot: "http://www.example.com"
+  approot: "http://limitless-inlet-2183.herokuapp.com"
   <<: *defaults
